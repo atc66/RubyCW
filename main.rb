@@ -28,22 +28,32 @@ arr = [1,2,-5,3,4]
 # end
 
 # positive_sum(arr)
+# Test to see if argument is  perfect square number
+# def is_square(x)
+#   bool = false
+#   for i in 1..x
+#   	if x/i.to_f == i
+#   		puts i
+#   		bool = true
+#   	end
+#   end
+#   if x == 0
+#   		bool = true
+#   	end
+#   puts bool
+# end
 
-def is_square(x)
-  bool = false
-  for i in 1..x
-  	if x/i.to_f == i
-  		puts i
-  		bool = true
-  	end
-  end
-  if x == 0
-  		bool = true
-  	end
-  puts bool
+# is_square(0)
+
+
+# repear n, s times
+def repeat_str (n, s)
+	n.times do |x|
+		print s
+	end
 end
 
-is_square(0)
+repeat_str(3, "*")
 
 
 # ------variables
